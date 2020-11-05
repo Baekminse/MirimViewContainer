@@ -22,7 +22,9 @@
     <ViewFlipper
         android:id="@+id/flipper"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:flipInterval="@android:integer/config_longAnimTime"
+        >
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
